@@ -232,8 +232,8 @@ main:
   service:
     annotations: {}
     # -- Service types allow you to specify what kind of Service you want.
-    # E.g., ClusterIP, NodePort, LoadBalancer, ExternalName
-    type: Nodeport
+    # E.g., ClusterIP, , LoadBalancer, ExternalName
+    type: NodePort
     # -- Service port
     port: 80
 
@@ -418,7 +418,7 @@ worker:
     annotations: {}
     # -- Service types allow you to specify what kind of Service you want.
     # E.g., ClusterIP, NodePort, LoadBalancer, ExternalName
-    type: Nodeport
+    type: NodePort
     # -- Service port
     port: 80
 
@@ -605,7 +605,7 @@ webhook:
     annotations: {}
     # -- Service types allow you to specify what kind of Service you want.
     # E.g., ClusterIP, NodePort, LoadBalancer, ExternalName
-    type: Nodeport
+    type: NodePort
     # -- Service port
     port: 80
 
